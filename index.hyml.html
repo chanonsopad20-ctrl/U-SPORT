@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="U SPORTS — ข่าวกีฬา เทคนิคการฝึก ฟิตเนส และสุขภาพในที่เดียว">
+<title>U SPORTS | Your Sport. Your World.</title>
+<style>
+:root{--bg:#0b1220;--panel:#121d31;--panel2:#17243a;--text:#f4f7fb;--muted:#aebbd0;--lime:#c5f45b;--line:#2a3850}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#0b1220ed;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:15px 0}.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.3rem;letter-spacing:.5px}.logo{display:grid;place-items:center;background:var(--lime);color:#0b1220;border-radius:12px;width:40px;height:40px;font-size:1.3rem}.brand span{color:var(--lime)}nav{display:flex;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:.93rem}nav a:hover{color:var(--lime)}
+.hero{padding:68px 0 48px;background:radial-gradient(ellipse at 80% 20%,#263d3a 0,transparent 40%),linear-gradient(135deg,#101b30,#0b1220 70%)}.eyebrow{color:var(--lime);font-weight:800;letter-spacing:2px;font-size:.82rem}.hero h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.04;letter-spacing:-2px;margin:15px 0}.hero h1 span{color:var(--lime)}.hero p{max-width:620px;color:var(--muted);font-size:1.1rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-block;padding:12px 18px;border-radius:12px;font-weight:800}.primary{background:var(--lime);color:#101720}.secondary{border:1px solid #526078;color:var(--text)}.stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:35px;color:var(--muted);font-size:.9rem}.stats b{color:var(--text);display:block;font-size:1.15rem}
+section{padding:42px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:20px}.section-head h2{margin:0;font-size:1.8rem}.section-head p{margin:3px 0 0;color:var(--muted)}.tag{display:inline-block;font-size:.76rem;font-weight:800;color:var(--lime);background:#26351c;padding:4px 9px;border-radius:999px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-3px);border-color:#6d8548}.visual{height:145px;display:grid;place-items:center;font-size:3rem;background:linear-gradient(135deg,#233a42,#18243a)}.visual.football{background:linear-gradient(135deg,#214b37,#17283b)}.visual.fitness{background:linear-gradient(135deg,#51422c,#20243b)}.visual.health{background:linear-gradient(135deg,#24465c,#17243b)}.card-body{padding:17px}.card h3{margin:9px 0 5px;font-size:1.12rem}.card p{color:var(--muted);font-size:.92rem;margin:0}.small{font-size:.78rem;color:var(--muted)}
+.feature{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.feature-main,.feature-side{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px}.feature-main h3{font-size:1.6rem;line-height:1.25;margin:12px 0}.feature-main p,.feature-side p{color:var(--muted)}.feature-side{display:flex;flex-direction:column;justify-content:center;gap:12px}.topic{padding:12px 0;border-bottom:1px solid var(--line)}.topic:last-child{border:0}.topic b{display:block}.topic span{font-size:.85rem;color:var(--muted)}
+.newsletter{background:var(--panel2);border:1px solid var(--line);border-radius:20px;padding:25px;display:flex;align-items:center;justify-content:space-between;gap:20px}.newsletter h2{margin:0}.newsletter p{color:var(--muted);margin:5px 0 0}.newsletter a{white-space:nowrap}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.88rem}.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media(max-width:760px){nav{gap:10px;font-size:.82rem}.nav{align-items:flex-start}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.feature{grid-template-columns:1fr}.hero{padding-top:48px}.visual{height:110px}.newsletter{align-items:flex-start;flex-direction:column}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}.brand{font-size:1.05rem}.logo{width:34px;height:34px}nav{max-width:180px;justify-content:flex-end}.section-head{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home"><span class="logo">🏆</span> U <span>SPORTS</span></a>
+  <nav aria-label="เมนูหลัก"><a href="#sports">หมวดกีฬา</a><a href="#featured">บทความ</a><a href="#about">เกี่ยวกับเรา</a></nav>
+</div></header>
+<main id="home">
+<section class="hero"><div class="wrap">
+  <div class="eyebrow">YOUR SPORT. YOUR WORLD.</div>
+  <h1>ทุกกีฬา<br>อยู่ใน <span>ที่เดียว</span></h1>
+  <p>พื้นที่สำหรับคนรักกีฬา รวมข่าวฟุตบอล เทคนิคการฝึก ฟิตเนส โภชนาการ และสุขภาพ เริ่มต้นพัฒนาตัวเองได้ทุกวัน</p>
+  <div class="actions"><a class="btn primary" href="#sports">สำรวจหมวดกีฬา ↗</a><a class="btn secondary" href="#featured">อ่านบทความ</a></div>
+  <div class="stats"><div><b>ALL SPORTS</b>ทุกชนิดกีฬา</div><div><b>FITNESS</b>ฝึกอย่างมีเป้าหมาย</div><div><b>HEALTH</b>สุขภาพดีระยะยาว</div></div>
+</div></section>
+<section id="sports"><div class="wrap">
+  <div class="section-head"><div><span class="tag">EXPLORE</span><h2>เลือกสนามของคุณ</h2><p>หมวดเนื้อหาสำหรับนักกีฬาและคนรักสุขภาพ</p></div></div>
+  <div class="grid">
+    <a class="card" href="#featured"><div class="visual football">⚽</div><div class="card-body"><span class="tag">POPULAR</span><h3>ฟุตบอล</h3><p>เทคนิค ทักษะ โปรแกรมฝึก และเรื่องน่ารู้สำหรับนักฟุตบอล</p></div></a>
+    <a class="card" href="#featured"><div class="visual">🏀</div><div class="card-body"><h3>บาสเกตบอล</h3><p>พัฒนาการเลี้ยงบอล การยิง ความคล่องตัว และพละกำลัง</p></div></a>
+    <a class="card" href="#featured"><div class="visual">🏸</div><div class="card-body"><h3>แบดมินตัน</h3><p>ฟุตเวิร์ก ความเร็ว การตีลูก และการเตรียมตัวก่อนแข่ง</p></div></a>
+    <a class="card" href="#featured"><div class="visual fitness">🏋️</div><div class="card-body"><h3>ฟิตเนสและเวทเทรนนิง</h3><p>โปรแกรมฝึกสร้างความแข็งแรงและสมรรถภาพอย่างเหมาะสม</p></div></a>
+    <a class="card" href="#featured"><div class="visual health">🏃</div><div class="card-body"><h3>วิ่งและความทนทาน</h3><p>เริ่มวิ่ง วางแผน 5K/10K และฝึกความอึดอย่างเป็นขั้นตอน</p></div></a>
+    <a class="card" href="#featured"><div class="visual">🥗</div><div class="card-body"><h3>สุขภาพและโภชนาการ</h3><p>อาหาร การพักผ่อน การฟื้นฟู และความรู้ดูแลร่างกาย</p></div></a>
+  </div>
+</div></section>
+<section id="featured"><div class="wrap">
+  <div class="section-head"><div><span class="tag">START HERE</span><h2>เริ่มพัฒนาตัวเอง</h2><p>ตัวอย่างหัวข้อที่ U SPORTS จะนำเสนอ</p></div></div>
+  <div class="feature">
+    <article class="feature-main"><span class="tag">คู่มือสำหรับมือใหม่</span><h3>อยากฟิตขึ้น ต้องเริ่มจากอะไร?</h3><p>เริ่มจากตั้งเป้าหมายที่ทำได้จริง ฝึกสม่ำเสมอ เพิ่มความหนักทีละน้อย กินอาหารให้เพียงพอ และนอนหลับให้เหมาะสม อย่าลืมวอร์มอัปและหยุดพักเมื่อมีอาการเจ็บผิดปกติ</p><a class="btn secondary" href="#about">รู้จัก U SPORTS →</a></article>
+    <div class="feature-side"><h3>หัวข้อที่น่าติดตาม</h3><div class="topic"><b>⚽ 5 แบบฝึกเพิ่มความคล่องตัว</b><span>ฟุตบอล • การฝึกซ้อม</span></div><div class="topic"><b>🥗 กินอย่างไรให้พร้อมออกกำลังกาย</b><span>โภชนาการ • สุขภาพ</span></div><div class="topic"><b>🏃 วางแผนเริ่มวิ่ง 5K</b><span>วิ่ง • มือใหม่</span></div></div>
+  </div>
+</div></section>
+<section id="about"><div class="wrap"><div class="newsletter"><div><h2>นี่คือจุดเริ่มต้นของ U SPORTS</h2><p>เว็บไซต์กีฬาและสุขภาพที่สร้างจากศูนย์ เริ่มฟรีและค่อย ๆ พัฒนาไปด้วยกัน</p></div><a class="btn primary" href="mailto:usports.example@gmail.com?subject=ติดต่อ%20U%20SPORTS">ติดต่อเรา ✉</a></div><p class="small" style="margin-top:12px">หมายเหตุ: อีเมลติดต่อด้านบนเป็นตัวอย่าง กรุณาเปลี่ยนเป็นอีเมลจริงก่อนเผยแพร่</p></div></section>
+</main>
+<footer><div class="wrap foot"><div><b>U SPORTS</b> · YOUR SPORT. YOUR WORLD.</div><div>© 2026 U SPORTS · สร้างเพื่อคนรักกีฬา</div></div></footer>
+</body>
+</html>
